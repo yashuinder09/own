@@ -1,0 +1,50 @@
+.navbar{
+
+    border: 2px red dashed;
+    padding: 10px;
+    display: flex;
+
+    background: radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 38%, rgba(6, 85, 171, 1) 67%, rgba(0, 212, 255, 1) 92%);
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: ;
+
+
+   
+
+}
+.navbar img{
+    border: 2px dashed red;
+    height: 50px;
+
+}
+.navbar button{
+    padding: 10px;
+    height: 5em;
+    width: 10em;
+    position: sticky;
+    background-color: rgb(255, 145, 0);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-style: oblique;
+}
+.navbar a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-style: oblique;
+
+}
+
+
+.navbar a:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color:  rgb(255, 145, 0);
+    box-shadow: 0 0 10px 10px  rgb(255, 145, 0);
+}
